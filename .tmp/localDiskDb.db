@@ -1,0 +1,174 @@
+{
+  "data": {
+    "cartitem": [],
+    "item": [],
+    "restaurant": [
+      {
+        "name": "Custer Wok",
+        "price": 1,
+        "description": "CusterWorkDesc",
+        "createdAt": "2015-11-02T04:51:49.454Z",
+        "updatedAt": "2015-11-02T04:51:49.454Z",
+        "id": 1
+      }
+    ],
+    "review": [],
+    "user": []
+  },
+  "schema": {
+    "cartitem": {
+      "quantity": {
+        "type": "integer"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "item": {
+        "type": "integer",
+        "model": "item",
+        "foreignKey": true,
+        "alias": "item"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "item": {
+      "name": {
+        "type": "string"
+      },
+      "image": {
+        "type": "string"
+      },
+      "price": {
+        "type": "integer"
+      },
+      "description": {
+        "type": "string"
+      },
+      "restaurant": {
+        "type": "integer",
+        "model": "restaurant",
+        "foreignKey": true,
+        "alias": "restaurant"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "restaurant": {
+      "name": {
+        "type": "string"
+      },
+      "price": {
+        "type": "integer"
+      },
+      "description": {
+        "type": "string"
+      },
+      "image": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "review": {
+      "score": {
+        "type": "integer"
+      },
+      "title": {
+        "type": "string"
+      },
+      "text": {
+        "type": "string"
+      },
+      "restaurant": {
+        "type": "integer",
+        "model": "restaurant",
+        "foreignKey": true,
+        "alias": "restaurant"
+      },
+      "author": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "author"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "name": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "password": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "cartitem": {},
+    "item": {},
+    "restaurant": {
+      "id": 1
+    },
+    "review": {},
+    "user": {}
+  }
+}

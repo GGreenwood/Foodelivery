@@ -86,7 +86,7 @@ var restaurants;
 $(document).ready(function() {
     var rest_list = $("#rest_list");
     restaurants = new Restaurants(rest_list);
-    $.getJSON("/api/Restaurants", function(data) {
+    $.getJSON("/restaurant", function(data) {
         data.forEach(function(restaurant, i) {
             restaurants.add(restaurant);
         });
