@@ -37,6 +37,15 @@ module.exports.routes = {
     },
     '/menu':{
         view: 'custerwok'
+    },
+    '/reviews':{
+        view: 'review'
+    },
+    '/cart':{
+        view: 'cart'
+    },
+    '/checkout':{
+        view: 'checkout'
     }
     /***************************************************************************
      *                                                                          *
