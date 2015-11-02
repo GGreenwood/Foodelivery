@@ -63,7 +63,7 @@ function Restaurant(data) {
                 '<p>' + this.description + '</p>' +
                 '</div>' +
                 '<div class="card-action">' + 
-                '<a href="custerwok.html">Menu</a>' +
+                '<a href="menu">Menu</a>' +
                 '</div>' +
                 '</div>' + 
                 '</div>'
