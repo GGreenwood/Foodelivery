@@ -7,17 +7,17 @@
 
 module.exports = {
 
-  attributes: {
+    attributes: {
 
-    score : { type: 'integer' },
+        score : { type: 'integer' },
 
-    title : { type: 'string' },
+        title : { type: 'string' },
 
-    text : { type: 'string' },
+        text : { type: 'string' },
 
-    restaurant : { model: 'restaurant' },
+        restaurant : { model: 'restaurant' },
 
-    author : { model : 'user'}
-  }
+        author : { model : 'user'}
+    }
 };
 
