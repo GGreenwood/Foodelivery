@@ -13,6 +13,8 @@ module.exports = {
 
         price : { type: 'integer' },
 
+        score : { type:'integer'},
+
         description : { type: 'string' },
 
         image : { type: 'string' },
