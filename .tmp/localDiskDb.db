@@ -7,7 +7,7 @@
         "image": "/images/custerwok.jpg",
         "name": "Custer Wok",
         "price": 1,
-        "score": "4",
+        "score": 4,
         "description": "A local Chinese restaurant with food",
         "createdAt": "2015-11-02T07:13:41.460Z",
         "updatedAt": "2015-11-02T07:14:49.071Z",
@@ -16,28 +16,11 @@
     ],
     "review": [
       {
-        "text": "testreview",
-        "createdAt": "2015-11-15T23:57:50.671Z",
-        "updatedAt": "2015-11-15T23:57:50.671Z",
-        "id": 3
-      },
-      {
-        "review": "asd",
-        "createdAt": "2015-11-16T00:17:33.764Z",
-        "updatedAt": "2015-11-16T00:17:33.764Z",
-        "id": 4
-      },
-      {
-        "review": "asd",
-        "createdAt": "2015-11-16T00:20:17.899Z",
-        "updatedAt": "2015-11-16T00:20:17.899Z",
-        "id": 5
-      },
-      {
-        "review": "asd",
-        "createdAt": "2015-11-16T00:23:11.079Z",
-        "updatedAt": "2015-11-16T00:23:11.079Z",
-        "id": 6
+        "review": "",
+        "score": 3,
+        "createdAt": "2015-11-16T01:45:05.994Z",
+        "updatedAt": "2015-11-16T01:45:05.994Z",
+        "id": 14
       }
     ],
     "user": []
@@ -109,6 +92,9 @@
         "type": "string"
       },
       "price": {
+        "type": "integer"
+      },
+      "score": {
         "type": "integer"
       },
       "description": {
@@ -196,7 +182,7 @@
       "id": 6
     },
     "review": {
-      "id": 6
+      "id": 14
     },
     "user": {}
   }

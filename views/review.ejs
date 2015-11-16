@@ -3,7 +3,16 @@
     <div class="col s12">
         <p class="flow-text">Thank you for your order! It will arrive soon. Please leave a review.</p>
     </div>
-    <div class="input-field col s12">
+    <div class="col input-field s2">
+        <div class="row">
+            <i star=1 style="cursor:pointer" onclick="setStar(this)" onmouseleave="resetStar(this)" onmouseenter="showStar(this)" class="star col offset-s1 s2 material-icons">stars</i>
+            <i star=2 style="cursor:pointer" onclick="setStar(this)" onmouseleave="resetStar(this)" onmouseenter="showStar(this)" class="star col s2 material-icons">stars</i>
+            <i star=3 style="cursor:pointer" onclick="setStar(this)" onmouseleave="resetStar(this)" onmouseenter="showStar(this)" class="star col s2 material-icons">stars</i>
+            <i star=4 style="cursor:pointer" onclick="setStar(this)" onmouseleave="resetStar(this)" onmouseenter="showStar(this)" class="star col s2 material-icons">stars</i>
+            <i star=5 style="cursor:pointer" onclick="setStar(this)" onmouseleave="resetStar(this)" onmouseenter="showStar(this)" class="star col s2 material-icons">stars</i>
+        </div>
+    </div>
+    <div class="input-field col s10">
         <input id="text" type="text">
         <label for="text">Review</label>
     </div>
