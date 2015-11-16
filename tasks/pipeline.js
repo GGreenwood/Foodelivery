@@ -40,6 +40,7 @@ var jsFilesToInject = [
   // '!js/ignore/these/files/*.js'
   '!js/reviews.js',
   '!js/index.js',
+  '!js/menu.js',
   '!js/menu.js'
 ];
 
