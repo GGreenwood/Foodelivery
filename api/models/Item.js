@@ -13,7 +13,7 @@ module.exports = {
 
         image : { type: 'string' },
 
-        price : { type: 'integer' },
+        price : { type: 'float' },
 
         description : { type: 'string' },
 
