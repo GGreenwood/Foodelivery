@@ -1,5 +1,6 @@
+var id;
 $(document).ready(function() {
     var parameters = document.URL.split('/');
-    var id = parameters[parameters.length-1];
-    console.log(id);
+    id = parameters[parameters.length-1];
+    $("#cart-button")[0].href = "/cart/" + id;
 });
