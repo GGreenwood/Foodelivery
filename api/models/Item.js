@@ -17,7 +17,11 @@ module.exports = {
 
         description : { type: 'string' },
 
-        restaurant : { model: 'restaurant' }
+        restaurant : { model: 'restaurant' },
+
+        type : {type: 'integer'},
+
+        image : {type: 'string'}
     }
 };
 
