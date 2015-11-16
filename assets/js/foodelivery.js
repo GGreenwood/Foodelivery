@@ -63,7 +63,7 @@ function Restaurant(data) {
                 '<p>' + this.description + '</p>' +
                 '</div>' +
                 '<div class="card-action">' + 
-                '<a href="menu">Menu</a>' +
+                '<a href="/menu/' + this.id + '">Menu</a>' +
                 '</div>' +
                 '</div>' + 
                 '</div>'
