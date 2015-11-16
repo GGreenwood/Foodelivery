@@ -116,11 +116,11 @@
         "name": "Cheese Sticks",
         "price": 4,
         "description": "A Dozen Breadsticks",
-        "image": "breadsticks.jpg",
+        "image": "cheesesticks.jpg",
         "type": 1,
         "restaurant": 10,
         "createdAt": "2015-11-16T03:18:40.623Z",
-        "updatedAt": "2015-11-16T03:18:40.623Z",
+        "updatedAt": "2015-11-16T05:49:44.185Z",
         "id": 11
       },
       {
@@ -386,6 +386,160 @@
         "createdAt": "2015-11-16T04:04:17.956Z",
         "updatedAt": "2015-11-16T04:04:17.956Z",
         "id": 35
+      },
+      {
+        "name": "Doritos Cheesy Gordita Crunch",
+        "price": 2.99,
+        "description": "A dorito shell taco in a cheese filled tortilla",
+        "image": "doritoscheesygorditacrunch.jpg",
+        "type": 2,
+        "restaurant": 13,
+        "createdAt": "2015-11-16T05:21:21.868Z",
+        "updatedAt": "2015-11-16T05:21:21.868Z",
+        "id": 36
+      },
+      {
+        "name": "Crunchy Taco",
+        "price": 1.19,
+        "description": "A crunchy taco",
+        "image": "crunchytaco.jpg",
+        "type": 2,
+        "restaurant": 13,
+        "createdAt": "2015-11-16T05:28:43.447Z",
+        "updatedAt": "2015-11-16T05:28:43.447Z",
+        "id": 37
+      },
+      {
+        "name": "Grilled Steak Soft Taco",
+        "price": 2.29,
+        "description": "A taco with grilled steak",
+        "image": "grilledsteaksofttaco.jpg",
+        "type": 2,
+        "restaurant": 13,
+        "createdAt": "2015-11-16T05:29:18.303Z",
+        "updatedAt": "2015-11-16T05:29:18.303Z",
+        "id": 38
+      },
+      {
+        "name": "Cheesy Fiesta Potatos",
+        "price": 1.29,
+        "description": "A bowl of fried potatos and cheese",
+        "image": "cheesyfiestapotatos.jpg",
+        "type": 1,
+        "restaurant": 13,
+        "createdAt": "2015-11-16T05:30:01.683Z",
+        "updatedAt": "2015-11-16T05:30:01.683Z",
+        "id": 39
+      },
+      {
+        "name": "Chips and Guacamole",
+        "price": 1.49,
+        "description": "chips and mashed avocados",
+        "image": "chipsandguacamole.jpg",
+        "type": 1,
+        "restaurant": 13,
+        "createdAt": "2015-11-16T05:30:23.192Z",
+        "updatedAt": "2015-11-16T05:30:23.192Z",
+        "id": 40
+      },
+      {
+        "name": "Black Beans",
+        "price": 1.49,
+        "description": "A bowl of black beans",
+        "image": "blackbeans.jpg",
+        "type": 1,
+        "restaurant": 13,
+        "createdAt": "2015-11-16T05:30:41.817Z",
+        "updatedAt": "2015-11-16T05:30:41.817Z",
+        "id": 41
+      },
+      {
+        "name": "Baja Blast Freeze",
+        "price": 1.99,
+        "description": "A frozen slushy of Baja Blast",
+        "image": "bajablastfreeze.jpg",
+        "type": 3,
+        "restaurant": 13,
+        "createdAt": "2015-11-16T05:31:08.445Z",
+        "updatedAt": "2015-11-16T05:31:08.445Z",
+        "id": 42
+      },
+      {
+        "name": "Brisk Mango Fiesta",
+        "price": 1.69,
+        "description": "A mango thing",
+        "image": "briskmangofiesta.jpg",
+        "type": 3,
+        "restaurant": 13,
+        "createdAt": "2015-11-16T05:32:02.162Z",
+        "updatedAt": "2015-11-16T05:32:02.162Z",
+        "id": 43
+      },
+      {
+        "name": "Mountain Dew Kickstart Orange Citrus",
+        "price": 1.69,
+        "description": "An orange thing I guess",
+        "image": "mountaindewkickstartorangecitrus.jpg",
+        "type": 3,
+        "restaurant": 13,
+        "createdAt": "2015-11-16T05:33:02.917Z",
+        "updatedAt": "2015-11-16T05:33:02.917Z",
+        "id": 44
+      },
+      {
+        "name": "Chicken Burrito",
+        "price": 6.95,
+        "description": "A burrito with chicken",
+        "image": "chickenburrito.jpg",
+        "type": 2,
+        "restaurant": 14,
+        "createdAt": "2015-11-16T05:35:28.991Z",
+        "updatedAt": "2015-11-16T05:35:28.991Z",
+        "id": 45
+      },
+      {
+        "name": "Steak Burrito",
+        "price": 7.95,
+        "description": "A burrito with steak",
+        "image": "steakburrito.jpg",
+        "type": 2,
+        "restaurant": 14,
+        "createdAt": "2015-11-16T05:35:43.374Z",
+        "updatedAt": "2015-11-16T05:35:43.374Z",
+        "id": 46
+      },
+      {
+        "name": "Carnitas Burrito",
+        "price": 7.95,
+        "description": "A burrito with carnitas",
+        "image": "carnitasburrito.jpg",
+        "type": 2,
+        "restaurant": 14,
+        "createdAt": "2015-11-16T05:36:00.978Z",
+        "updatedAt": "2015-11-16T05:36:00.978Z",
+        "id": 47
+      },
+      {
+        "name": "Guacamole",
+        "price": 1.95,
+        "description": "a bowl of guacamole",
+        "image": "guacamole.jpg",
+        "type": 1,
+        "restaurant": 14,
+        "createdAt": "2015-11-16T05:37:43.763Z",
+        "updatedAt": "2015-11-16T05:37:43.763Z",
+        "id": 48
+      },
+      {
+        "name": "Fountain Drink",
+        "price": 1.45,
+        "description": "a drink of your choosing",
+        "image": "fountaindrink.jpg",
+        "type": 3,
+        "restaurant": 14,
+        "createdAt": "2015-11-16T05:38:01.937Z",
+        "updatedAt": "2015-11-16T05:38:01.937Z",
+        "id": 49
       }
     ],
     "restaurant": [
@@ -620,7 +774,7 @@
   "counters": {
     "cartitem": {},
     "item": {
-      "id": 35
+      "id": 49
     },
     "restaurant": {
       "id": 14
