@@ -38,7 +38,8 @@ var jsFilesToInject = [
   'slick/**/*.js',
   // Use the "exclude" operator to ignore files
   // '!js/ignore/these/files/*.js'
-  '!js/reviews.js'
+  '!js/reviews.js',
+  '!js/menu.js'
 ];
 
 
