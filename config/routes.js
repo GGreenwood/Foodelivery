@@ -46,6 +46,9 @@ module.exports.routes = {
     },
     '/checkout':{
         view: 'checkout'
+    },
+    '/reviewlist':{
+        view:'reviewlist'
     }
     /***************************************************************************
      *                                                                          *
