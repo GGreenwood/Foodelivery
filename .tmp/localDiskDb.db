@@ -4,14 +4,64 @@
     "item": [],
     "restaurant": [
       {
-        "image": "/images/custerwok.jpg",
         "name": "Custer Wok",
         "price": 1,
-        "score": 4,
-        "description": "A local Chinese restaurant with food",
-        "createdAt": "2015-11-02T07:13:41.460Z",
-        "updatedAt": "2015-11-02T07:14:49.071Z",
-        "id": 6
+        "description": "A local chinese place with food",
+        "image": "custerwoksmall.jpg",
+        "distance": 4.2,
+        "createdAt": "2015-11-16T02:25:19.820Z",
+        "updatedAt": "2015-11-16T02:25:19.820Z",
+        "id": 9
+      },
+      {
+        "name": "Pizza Hut",
+        "price": 1,
+        "description": "A large pizza delivery chain",
+        "image": "pizzahutsmall.jpg",
+        "distance": 2.9,
+        "createdAt": "2015-11-16T02:25:48.500Z",
+        "updatedAt": "2015-11-16T02:25:48.500Z",
+        "id": 10
+      },
+      {
+        "name": "Jimmy Johns",
+        "price": 2,
+        "description": "Sandwiches to your door",
+        "image": "jimmyjohnssmall.jpg",
+        "distance": 0.8,
+        "createdAt": "2015-11-16T02:26:23.316Z",
+        "updatedAt": "2015-11-16T02:26:23.316Z",
+        "id": 11
+      },
+      {
+        "name": "Zenna",
+        "price": 3,
+        "description": "Thai/Japanese Fusion",
+        "image": "zennasmall.jpg",
+        "distance": 5.9,
+        "createdAt": "2015-11-16T02:27:25.976Z",
+        "updatedAt": "2015-11-16T02:27:25.976Z",
+        "id": 12
+      },
+      {
+        "name": "Taco Bell",
+        "price": 1,
+        "description": "Mediocre tacos to you",
+        "image": "tacobellsmall.jpg",
+        "distance": 2.6,
+        "createdAt": "2015-11-16T02:28:00.455Z",
+        "updatedAt": "2015-11-16T02:28:00.455Z",
+        "id": 13
+      },
+      {
+        "name": "Chipotle",
+        "price": 2,
+        "description": "Decent burritos delivered",
+        "image": "chipotle.jpg",
+        "distance": 2.5,
+        "createdAt": "2015-11-16T02:28:29.528Z",
+        "updatedAt": "2015-11-16T02:28:29.528Z",
+        "id": 14
       }
     ],
     "review": [
@@ -103,6 +153,9 @@
       "image": {
         "type": "string"
       },
+      "distance": {
+        "type": "float"
+      },
       "id": {
         "type": "integer",
         "autoIncrement": true,
@@ -179,7 +232,7 @@
     "cartitem": {},
     "item": {},
     "restaurant": {
-      "id": 6
+      "id": 14
     },
     "review": {
       "id": 14
