@@ -1,7 +1,393 @@
 {
   "data": {
     "cartitem": [],
-    "item": [],
+    "item": [
+      {
+        "name": "Egg Roll",
+        "price": 1,
+        "description": "An egg roll",
+        "image": "eggroll.jpg",
+        "type": 1,
+        "restaurant": 9,
+        "createdAt": "2015-11-16T02:44:07.430Z",
+        "updatedAt": "2015-11-16T02:44:07.430Z",
+        "id": 1
+      },
+      {
+        "name": "Chicken Chow Mein",
+        "price": 6,
+        "description": "Chow Mein with Chicken",
+        "image": "chickenchowmein.jpg",
+        "type": 2,
+        "restaurant": 9,
+        "createdAt": "2015-11-16T02:44:28.349Z",
+        "updatedAt": "2015-11-16T02:49:00.705Z",
+        "id": 2
+      },
+      {
+        "name": "Dumplings",
+        "price": 1.5,
+        "description": "Half a dozen dumplings",
+        "image": "dumplings.jpg",
+        "type": 1,
+        "restaurant": 9,
+        "createdAt": "2015-11-16T02:44:46.248Z",
+        "updatedAt": "2015-11-16T02:44:46.248Z",
+        "id": 3
+      },
+      {
+        "name": "Egg Drop Soup",
+        "price": 2,
+        "description": "Soup with Egg dropped in",
+        "image": "eggdropsoup.jpg",
+        "type": 1,
+        "restaurant": 9,
+        "createdAt": "2015-11-16T02:51:05.863Z",
+        "updatedAt": "2015-11-16T02:51:05.863Z",
+        "id": 4
+      },
+      {
+        "name": "Orange Chicken",
+        "price": 6.99,
+        "description": "Fried Chicken with Orange flavor and rice",
+        "image": "orangechicken.jpg",
+        "type": 2,
+        "restaurant": 9,
+        "createdAt": "2015-11-16T02:55:57.734Z",
+        "updatedAt": "2015-11-16T02:55:57.734Z",
+        "id": 5
+      },
+      {
+        "name": "Veggie Fried Rice",
+        "price": 5,
+        "description": "Fried Rice with vegetables",
+        "image": "veggiefriedrice.jpg",
+        "type": 2,
+        "restaurant": 9,
+        "createdAt": "2015-11-16T02:58:14.010Z",
+        "updatedAt": "2015-11-16T02:58:14.010Z",
+        "id": 6
+      },
+      {
+        "name": "Large Cheese Pizza",
+        "price": 5.5,
+        "description": "A Large Pizza with Cheese",
+        "image": "largecheesepizza.jpg",
+        "type": 2,
+        "restaurant": 10,
+        "createdAt": "2015-11-16T03:17:05.299Z",
+        "updatedAt": "2015-11-16T03:17:05.299Z",
+        "id": 7
+      },
+      {
+        "name": "Large Pepperoni Pizza",
+        "price": 6,
+        "description": "A Large Pizza with Cheese and Pepperoni",
+        "image": "largepepperonipizza.jpg",
+        "type": 2,
+        "restaurant": 10,
+        "createdAt": "2015-11-16T03:17:30.690Z",
+        "updatedAt": "2015-11-16T03:17:30.690Z",
+        "id": 8
+      },
+      {
+        "name": "Large Supreme Pizza",
+        "price": 6.5,
+        "description": "A Large Pizza with Cheese and Vegetables",
+        "image": "largesupremepizza.jpg",
+        "type": 2,
+        "restaurant": 10,
+        "createdAt": "2015-11-16T03:17:50.248Z",
+        "updatedAt": "2015-11-16T03:17:50.248Z",
+        "id": 9
+      },
+      {
+        "name": "Breadsticks",
+        "price": 3.5,
+        "description": "A Dozen Breadsticks",
+        "image": "breadsticks.jpg",
+        "type": 1,
+        "restaurant": 10,
+        "createdAt": "2015-11-16T03:18:26.192Z",
+        "updatedAt": "2015-11-16T03:18:26.192Z",
+        "id": 10
+      },
+      {
+        "name": "Cheese Sticks",
+        "price": 4,
+        "description": "A Dozen Breadsticks",
+        "image": "breadsticks.jpg",
+        "type": 1,
+        "restaurant": 10,
+        "createdAt": "2015-11-16T03:18:40.623Z",
+        "updatedAt": "2015-11-16T03:18:40.623Z",
+        "id": 11
+      },
+      {
+        "name": "Tuscani Chicken Alfredo",
+        "price": 8.49,
+        "description": "Grilled chicken breast strips and rotini pasta oven-baked in a creamy Alfredo sauce with a layer of melted cheese.",
+        "image": "tuscanichickenalfredo.jpg",
+        "type": 2,
+        "restaurant": 10,
+        "createdAt": "2015-11-16T03:20:23.445Z",
+        "updatedAt": "2015-11-16T03:20:23.445Z",
+        "id": 12
+      },
+      {
+        "name": "Cinnamon Sticks",
+        "price": 4.29,
+        "description": "Sweet Cinnamon sticks with frosting",
+        "image": "cinnamonsticks.jpg",
+        "type": 1,
+        "restaurant": 10,
+        "createdAt": "2015-11-16T03:22:29.974Z",
+        "updatedAt": "2015-11-16T03:22:29.974Z",
+        "id": 13
+      },
+      {
+        "name": "Pepsi",
+        "price": 1.79,
+        "description": "Sweet Pepsi Cola",
+        "image": "pepsi.jpg",
+        "type": 3,
+        "restaurant": 10,
+        "createdAt": "2015-11-16T03:24:21.330Z",
+        "updatedAt": "2015-11-16T03:24:21.330Z",
+        "id": 14
+      },
+      {
+        "name": "Sierra Mist",
+        "price": 1.79,
+        "description": "Sweet Lemon-Lime Soda",
+        "image": "sierramist.jpg",
+        "type": 3,
+        "restaurant": 10,
+        "createdAt": "2015-11-16T03:24:44.226Z",
+        "updatedAt": "2015-11-16T03:24:44.226Z",
+        "id": 15
+      },
+      {
+        "name": "Dr. Pepper",
+        "price": 1.79,
+        "description": "Dr. Pepper Soda",
+        "image": "drpepper.jpg",
+        "type": 3,
+        "restaurant": 10,
+        "createdAt": "2015-11-16T03:25:46.680Z",
+        "updatedAt": "2015-11-16T03:25:46.680Z",
+        "id": 16
+      },
+      {
+        "name": "Ham and Cheese Slim",
+        "price": 3.99,
+        "description": "A slim sandwich with ham and cheese",
+        "image": "hamandcheeseslim.jpg",
+        "type": 2,
+        "restaurant": 11,
+        "createdAt": "2015-11-16T03:40:06.217Z",
+        "updatedAt": "2015-11-16T03:40:06.217Z",
+        "id": 17
+      },
+      {
+        "name": "Big John Sub",
+        "price": 4.99,
+        "description": "an 8\" sub with roast beef",
+        "image": "bigjohnsub.jpg",
+        "type": 2,
+        "restaurant": 11,
+        "createdAt": "2015-11-16T03:40:41.484Z",
+        "updatedAt": "2015-11-16T03:40:41.484Z",
+        "id": 18
+      },
+      {
+        "name": "Gourmet Veggie Club",
+        "price": 5.99,
+        "description": "A giant sub with veggies and cheese",
+        "image": "gourmetveggieclub.jpg",
+        "type": 2,
+        "restaurant": 11,
+        "createdAt": "2015-11-16T03:41:26.237Z",
+        "updatedAt": "2015-11-16T03:41:26.237Z",
+        "id": 19
+      },
+      {
+        "name": "The Gargantuan",
+        "price": 7.99,
+        "description": "An enormous sub with meat, veggies, and cheese",
+        "image": "thegargantuan.jpg",
+        "type": 2,
+        "restaurant": 11,
+        "createdAt": "2015-11-16T03:42:06.013Z",
+        "updatedAt": "2015-11-16T03:42:06.013Z",
+        "id": 20
+      },
+      {
+        "name": "Cookie",
+        "price": 1.5,
+        "description": "A cookie",
+        "image": "cookie.jpg",
+        "type": 1,
+        "restaurant": 11,
+        "createdAt": "2015-11-16T03:42:26.808Z",
+        "updatedAt": "2015-11-16T03:42:26.808Z",
+        "id": 21
+      },
+      {
+        "name": "Potato Chips",
+        "price": 1.35,
+        "description": "a bag of potato chips",
+        "image": "potatochips.jpg",
+        "type": 1,
+        "restaurant": 11,
+        "createdAt": "2015-11-16T03:42:42.757Z",
+        "updatedAt": "2015-11-16T03:42:42.757Z",
+        "id": 22
+      },
+      {
+        "name": "Pickle",
+        "price": 1.35,
+        "description": "a dill pickle",
+        "image": "pickle.jpg",
+        "type": 1,
+        "restaurant": 11,
+        "createdAt": "2015-11-16T03:43:00.279Z",
+        "updatedAt": "2015-11-16T03:43:00.279Z",
+        "id": 23
+      },
+      {
+        "name": "Coke",
+        "price": 1.69,
+        "description": "a bottle of coke",
+        "image": "coke.jpg",
+        "type": 3,
+        "restaurant": 11,
+        "createdAt": "2015-11-16T03:44:17.686Z",
+        "updatedAt": "2015-11-16T03:44:17.686Z",
+        "id": 24
+      },
+      {
+        "name": "Iced Tea",
+        "price": 1.69,
+        "description": "a bottle of unsweet tea",
+        "image": "icedtea.jpg",
+        "type": 3,
+        "restaurant": 11,
+        "createdAt": "2015-11-16T03:44:34.182Z",
+        "updatedAt": "2015-11-16T03:44:34.182Z",
+        "id": 25
+      },
+      {
+        "name": "Lemonade",
+        "price": 1.69,
+        "description": "a bottle of light lemonade",
+        "image": "lemonade.jpg",
+        "type": 3,
+        "restaurant": 11,
+        "createdAt": "2015-11-16T03:44:52.477Z",
+        "updatedAt": "2015-11-16T03:44:52.477Z",
+        "id": 26
+      },
+      {
+        "name": "Imperial Rolls",
+        "price": 4.45,
+        "description": "Shrimp, lettuce, cilantro, carrots wrapped in rice paper and served with sweet peanut sauce",
+        "image": "imperialrolls.jpg",
+        "type": 1,
+        "restaurant": 12,
+        "createdAt": "2015-11-16T03:49:09.857Z",
+        "updatedAt": "2015-11-16T03:49:09.857Z",
+        "id": 27
+      },
+      {
+        "name": "House Salad",
+        "price": 4.45,
+        "description": "Mixed green lettuce, onions, cucumbers, carrots, bell pepper, tomatoes with homemade peanut dressing",
+        "image": "housesalad.jpg",
+        "type": 1,
+        "restaurant": 12,
+        "createdAt": "2015-11-16T03:49:38.209Z",
+        "updatedAt": "2015-11-16T03:49:38.209Z",
+        "id": 28
+      },
+      {
+        "name": "Tuna Tartar",
+        "price": 7.75,
+        "description": "Tuna marinated in Cajun spice served with guacamole, tobiko and spicy mayonnaise",
+        "image": "tunatartar.jpg",
+        "type": 1,
+        "restaurant": 12,
+        "createdAt": "2015-11-16T03:50:02.216Z",
+        "updatedAt": "2015-11-16T03:50:02.216Z",
+        "id": 29
+      },
+      {
+        "name": "Thai Fried Rice",
+        "price": 9.99,
+        "description": "Beef, Egg, tomatoes, onion garnish with cucumber and cilantro",
+        "image": "thaifriedrice.jpg",
+        "type": 2,
+        "restaurant": 12,
+        "createdAt": "2015-11-16T03:50:53.704Z",
+        "updatedAt": "2015-11-16T03:50:53.704Z",
+        "id": 30
+      },
+      {
+        "name": "Pad Thai Noodles",
+        "price": 10.19,
+        "description": "Traditional Thai noodles, egg, bean sprout, red and green onion and group peanuts",
+        "image": "padthainoodles.jpg",
+        "type": 2,
+        "restaurant": 12,
+        "createdAt": "2015-11-16T03:57:46.212Z",
+        "updatedAt": "2015-11-16T03:57:46.212Z",
+        "id": 31
+      },
+      {
+        "name": "Panang Curry",
+        "price": 10.19,
+        "description": "Red panang chili paste, green beans, bell pepper, lime leaf and coconut milk",
+        "image": "panangcurry.jpg",
+        "type": 2,
+        "restaurant": 12,
+        "createdAt": "2015-11-16T04:01:54.936Z",
+        "updatedAt": "2015-11-16T04:01:54.936Z",
+        "id": 32
+      },
+      {
+        "name": "Sprite",
+        "price": 1.6,
+        "description": "Lemon Lime Sweet Soda",
+        "image": "sprite.jpg",
+        "type": 3,
+        "restaurant": 12,
+        "createdAt": "2015-11-16T04:03:23.362Z",
+        "updatedAt": "2015-11-16T04:03:23.362Z",
+        "id": 33
+      },
+      {
+        "name": "Shirley Temple",
+        "price": 1.85,
+        "description": "Lemon Lime Sweet Soda with Cherry",
+        "image": "shirleytemple.jpg",
+        "type": 3,
+        "restaurant": 12,
+        "createdAt": "2015-11-16T04:03:41.080Z",
+        "updatedAt": "2015-11-16T04:03:41.080Z",
+        "id": 34
+      },
+      {
+        "name": "Coconut Juice",
+        "price": 3.05,
+        "description": "The water from inside a Coconut",
+        "image": "coconutjuice.jpg",
+        "type": 3,
+        "restaurant": 12,
+        "createdAt": "2015-11-16T04:04:17.956Z",
+        "updatedAt": "2015-11-16T04:04:17.956Z",
+        "id": 35
+      }
+    ],
     "restaurant": [
       {
         "name": "Custer Wok",
@@ -113,7 +499,7 @@
         "type": "string"
       },
       "price": {
-        "type": "integer"
+        "type": "float"
       },
       "description": {
         "type": "string"
@@ -123,6 +509,9 @@
         "model": "restaurant",
         "foreignKey": true,
         "alias": "restaurant"
+      },
+      "type": {
+        "type": "integer"
       },
       "id": {
         "type": "integer",
@@ -230,7 +619,9 @@
   },
   "counters": {
     "cartitem": {},
-    "item": {},
+    "item": {
+      "id": 35
+    },
     "restaurant": {
       "id": 14
     },

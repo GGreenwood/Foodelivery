@@ -53,7 +53,7 @@ function Restaurant(data) {
         return this.div_cache;
     }
     this.append = function(restaurant_list) {
-        restaurant_list.append('<div class="col s4" rest_id=' + this.id + '>' + 
+        restaurant_list.append('<div class="col s12 m6 l4" rest_id=' + this.id + '>' + 
                 '<div class="card small hoverable">' + 
                 '<div class="card-image">' +
                 '<img src="' + this.image + '">' +
