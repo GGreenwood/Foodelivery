@@ -36,10 +36,10 @@ module.exports.routes = {
         view: 'homepage'
     },
     '/menu':{
-        view: 'custerwok'
+        view: 'menu'
     },
     '/menu/*':{
-        view: 'custerwok'
+        view: 'menu'
     },
     '/reviews':{
         view: 'review'

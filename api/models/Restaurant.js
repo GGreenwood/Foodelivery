@@ -19,7 +19,7 @@ module.exports = {
 
         image : { type: 'string' },
 
-        location : {type: 'double'},
+        distance : {type: 'float'},
 
         items : {
             collection : 'item',
