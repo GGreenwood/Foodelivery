@@ -56,7 +56,7 @@ function Restaurant(data) {
         restaurant_list.append('<div class="col s12 m6 l4" rest_id=' + this.id + '>' + 
                 '<div class="card small hoverable">' + 
                 '<div class="card-image">' +
-                '<img src="' + this.image + '">' +
+                '<img src="images/' + this.image + '">' +
                 '<span class="card-title">' + this.name + '</span>' +
                 '</div>' + 
                 '<div class="card-content">' + 
