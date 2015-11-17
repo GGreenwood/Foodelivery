@@ -7,7 +7,7 @@
             height:300px;
         }
 </style>
-<div class="slider foodcarousel">
+<div id="carousel" class="slider foodcarousel">
     <div class="image"><img src="/images/orangechicken.jpg"></div>
     <div class="image"><img src="/images/vegetablefriedrice.jpg"></div>
     <div class="image"><img src="/images/chickenfriedrice.jpg"></div>
@@ -18,34 +18,13 @@
 
 <div class="container">
     <div class="row center">
-        <div class="col s12 m6" class="center"><span class="flow-text">Appetizers</span>
-            <div class="row">
-                <div class="col s6 " class="center"><a onclick="addItem()" class="waves-effect waves-light btn-large">Egg Roll</a></div>
-                <div class="input-field col s3">
-                    <input quantityeggroll="quantityeggroll" id="eggroll" type="text" class="validate">
-                    <label class="active" for="eggroll">Qty</label></div>
-                <div class="col s3 vertical-align: text-bottom;"><h4>$1.00</h4></div>
-            </div>
+        <div id="appetizers" class="col s12 m6" class="center"><span class="flow-text">Appetizers</span>
         </div>
 
-        <div class="col s12 m6" class="center"><span class="flow-text">Entrees</span>
-            <div class="row">
-                <div class="col s6 " class="center"><a  class="waves-effect waves-light btn-large">Orange Chicken</a></div>
-                <div class="input-field col s3">
-                    <input orangechicken="orangechicken" id="orangechicken" type="text" class="validate">
-                    <label class="active" for="orangechicken">Qty</label></div>
-                <div class="col s3 vertical-align: text-bottom;"><h4>$6.99</h4></div>
-            </div>
+        <div id="entrees" class="col s12 m6" class="center"><span class="flow-text">Entrees</span>
         </div>
 
-        <div class="col s12 m6" class="center"><span class="flow-text">Drinks</span>
-            <div class="row">
-                <div class="col s6 " class="center"><a  class="waves-effect waves-light btn-large">Orange Chicken</a></div>
-                <div class="input-field col s3">
-                    <input orangechicken="orangechicken" id="orangechicken" type="text" class="validate">
-                    <label class="active" for="orangechicken">Qty</label></div>
-                <div class="col s3 vertical-align: text-bottom;"><h4>$6.99</h4></div>
-            </div>
+        <div id="drinks" class="col s12 m6" class="center"><span class="flow-text">Drinks</span>
         </div>
     </div>
 </div>
