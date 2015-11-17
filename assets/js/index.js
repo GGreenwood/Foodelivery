@@ -57,9 +57,9 @@ function Restaurant(data) {
                 '<div class="card small hoverable">' + 
                 '<div class="card-image">' +
                 '<img src="images/' + this.image + '">' +
-                '<span class="card-title">' + this.name + '</span>' +
                 '</div>' + 
                 '<div class="card-content">' + 
+                '<span class="card-title" style="color:#ffab40"><b>'+ this.name +'</b></span>' +
                 '<p>' + this.description + '</p>' +
                 '</div>' +
                 '<div class="card-action">' + 
