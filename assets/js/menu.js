@@ -20,16 +20,14 @@ $(document).ready(function() {
             }
 
         }
-
-    });
-
-    $('.foodcarousel').slick({
-        centerMode: true,
-        centerPadding: '60px',
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000
+        $('.foodcarousel').slick({
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000
+        });
     });
 });
 
