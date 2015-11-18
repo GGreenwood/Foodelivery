@@ -625,6 +625,34 @@
         "createdAt": "2015-11-17T19:00:25.277Z",
         "updatedAt": "2015-11-17T19:00:25.277Z",
         "id": 16
+      },
+      {
+        "review": "I loved it!",
+        "score": 3,
+        "createdAt": "2015-11-17T23:34:58.985Z",
+        "updatedAt": "2015-11-17T23:34:58.985Z",
+        "id": 17
+      },
+      {
+        "review": "I loved it!",
+        "score": 4,
+        "createdAt": "2015-11-17T23:58:18.290Z",
+        "updatedAt": "2015-11-17T23:58:18.290Z",
+        "id": 18
+      },
+      {
+        "review": "Was great!",
+        "score": 3,
+        "createdAt": "2015-11-18T00:10:06.533Z",
+        "updatedAt": "2015-11-18T00:10:06.533Z",
+        "id": 19
+      },
+      {
+        "review": "There were olives.",
+        "score": 1,
+        "createdAt": "2015-11-18T00:10:51.412Z",
+        "updatedAt": "2015-11-18T00:10:51.412Z",
+        "id": 20
       }
     ],
     "user": []
@@ -794,7 +822,7 @@
       "id": 14
     },
     "review": {
-      "id": 16
+      "id": 20
     },
     "user": {}
   }
