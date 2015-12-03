@@ -15,9 +15,9 @@ $(document).ready(function() {
         console.log(review.score);
         for(var i = 0; i < 5; i++) {
             if(review.score <= i) {
-                starDiv.append('<i class="col s2 material-icons">stars</i>');
+                starDiv.append('<i style="color:#cccccc" class="col s2 material-icons">star_rate</i>');
             } else {
-                starDiv.append('<i class="col s2 material-icons">star_rate</i>');
+                starDiv.append('<i style="color:gold" class="col s2 material-icons">star_rate</i>');
             }
         }
         textDiv = $("#text");

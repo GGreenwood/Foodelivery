@@ -540,6 +540,17 @@
         "createdAt": "2015-11-16T05:38:01.937Z",
         "updatedAt": "2015-11-16T05:38:01.937Z",
         "id": 49
+      },
+      {
+        "name": "Jasmine Tea",
+        "price": 1.39,
+        "description": "Hot flower tea",
+        "image": "jasminetea.jpg",
+        "type": 3,
+        "restaurant": 9,
+        "createdAt": "2015-12-03T00:15:54.193Z",
+        "updatedAt": "2015-12-03T00:15:54.193Z",
+        "id": 54
       }
     ],
     "restaurant": [
@@ -653,6 +664,13 @@
         "createdAt": "2015-11-18T00:10:51.412Z",
         "updatedAt": "2015-11-18T00:10:51.412Z",
         "id": 20
+      },
+      {
+        "review": "ereter",
+        "score": 0,
+        "createdAt": "2015-11-18T00:25:20.757Z",
+        "updatedAt": "2015-11-18T00:25:20.757Z",
+        "id": 21
       }
     ],
     "user": []
@@ -816,13 +834,13 @@
   "counters": {
     "cartitem": {},
     "item": {
-      "id": 49
+      "id": 54
     },
     "restaurant": {
       "id": 14
     },
     "review": {
-      "id": 20
+      "id": 21
     },
     "user": {}
   }
