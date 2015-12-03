@@ -41,7 +41,9 @@ var jsFilesToInject = [
   '!js/reviews.js',
   '!js/index.js',
   '!js/menu.js',
-  '!js/materialize.js'
+  '!js/materialize.js',
+  '!js/reviewlist.js',
+  '!js/menu.js'
 ];
 
 

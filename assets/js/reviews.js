@@ -7,7 +7,7 @@ function submit() {
 
     io.socket.post("/review", data, function(response) {
         console.log(response);
-        window.location = "reviewlist";
+        window.location = "/reviewlist/" + getId();;
     });
 }
 

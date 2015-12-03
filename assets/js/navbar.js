@@ -9,6 +9,9 @@ function getId() {
     } else {
         var parameters = document.URL.split('/');
         id = parameters[parameters.length-1];
-        return id;
+        if(parseInt(id))
+            return id;
+        else
+            return 9;
     }
 }
