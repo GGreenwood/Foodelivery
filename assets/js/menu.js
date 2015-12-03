@@ -47,7 +47,9 @@ $(document).ready(function() {
                         }
                     });
                 } else {
-                    --count;
+                    if(!--count) {
+                        window.location = "/cart/" + id;
+                    }
                 }
             });
         });

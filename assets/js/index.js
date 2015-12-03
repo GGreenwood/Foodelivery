@@ -99,6 +99,7 @@ $(document).ready(function() {
         restaurants.search(text);
     });
 
+    /*
     var login_div = $("#navbar-login")[0];
     var login_container = $("#login_container");
     var is_logging_in = false;
@@ -113,6 +114,7 @@ $(document).ready(function() {
             is_logging_in = true;
         }
     });
+    */
 
     var login_button = $("#login_button")[0];
     login_button.addEventListener("click", function() {
