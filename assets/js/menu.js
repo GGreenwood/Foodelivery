@@ -65,7 +65,7 @@ function newImage(item) {
 }
 
 function formatPrice(price) {
-    return '$' + parseInt(price).toFixed(2);
+    return '$' + parseFloat(price).toFixed(2);
 }
 
 function addItem(id) {
