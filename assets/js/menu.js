@@ -29,19 +29,27 @@ $(document).ready(function() {
         });
     });
 
-    cart_button = $("#cart-button");
-    cart_button.removeAttr("href");
-    cart_button.attr("href", "javascript:;");
-    cart_button.click(function() {
-        items = $(".item");
-        count = items.length;
-        items.each(function(index, item) {
-            id = item.getAttribute("itemid");
-            quantity = item.value;
-            if(quantity)
-                io.socket.post("/cartItem", {quantity: quantity, item: id});
-            if(!--count)
-                console.log("done");
+    $(window).load(function() {
+        cart_button = $("#cart-button");
+        cart_button.removeAttr("href");
+        cart_button.attr("href", "javascript:;");
+        cart_button.click(function() {
+            items = $(".item");
+            count = items.length;
+            items.each(function(index, item) {
+                itemid = item.getAttribute("itemid");
+                quantity = item.value;
+                if(quantity) {
+                    io.socket.post("/cartItem", {quantity: quantity, item: itemid}, function(response) {
+                        console.log("Pushed " + itemid);
+                        if(!--count) {
+                            window.location = "/cart/" + id;
+                        }
+                    });
+                } else {
+                    --count;
+                }
+            });
         });
     });
 });

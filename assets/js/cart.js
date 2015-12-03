@@ -11,6 +11,21 @@ $(document).ready(function() {
         }
         $("#grandtotal h4").text(formatPrice(total + 1.2));
     });
+
+    $(window).load(function() {
+        checkoutButton = $("#checkout");
+        checkoutButton.click(function() {
+            io.socket.get("/cartItem", function(data) {
+                count = data.length;
+                for(var i = 0; i < data.length; i++) {
+                    io.socket.delete("/cartItem", {id: data[i].id}, function(response) {
+                        if(!--count)
+                            window.location.replace("/checkout");
+                    });
+                }
+            });
+        });
+    });
 });
 
 function newItem(item) {

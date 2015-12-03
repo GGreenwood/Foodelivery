@@ -2,18 +2,18 @@
   "data": {
     "cartitem": [
       {
-        "quantity": 2,
+        "quantity": 1,
         "item": 1,
-        "createdAt": "2015-12-03T22:05:33.054Z",
-        "updatedAt": "2015-12-03T22:05:33.054Z",
-        "id": 11
+        "createdAt": "2015-12-03T22:57:37.698Z",
+        "updatedAt": "2015-12-03T22:57:37.698Z",
+        "id": 43
       },
       {
-        "quantity": 3,
+        "quantity": 1,
         "item": 3,
-        "createdAt": "2015-12-03T22:06:13.610Z",
-        "updatedAt": "2015-12-03T22:06:13.610Z",
-        "id": 12
+        "createdAt": "2015-12-03T22:57:37.854Z",
+        "updatedAt": "2015-12-03T22:57:37.854Z",
+        "id": 44
       }
     ],
     "item": [
@@ -854,7 +854,7 @@
   },
   "counters": {
     "cartitem": {
-      "id": 12
+      "id": 44
     },
     "item": {
       "id": 54
