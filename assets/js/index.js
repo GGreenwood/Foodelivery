@@ -59,7 +59,7 @@ function Restaurant(data) {
                 '<img src="images/' + this.image + '">' +
                 '</div>' + 
                 '<div class="card-content">' + 
-                '<span class="card-title" style="color:#ffab40"><b>'+ this.name +'</b></span>' +
+                '<span class="card-title" style="color:#000000"><b>'+ this.name +'</b></span>' +
                 '<p>' + this.description + '</p>' +
                 '</div>' +
                 '<div class="card-action">' + 

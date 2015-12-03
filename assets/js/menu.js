@@ -14,7 +14,6 @@ $(document).ready(function() {
             } else if(item.type == 3) {
                 drinkDiv.append(newItem(item));
             }
-
             if(item.image) {
                 carouselDiv.append(newImage(item));
             }
@@ -38,7 +37,7 @@ function newItem(item) {
         '</div>' +
         '<div class="col s3"><h4>' + formatPrice(item.price) + '</h4></div>' + 
         '<div class="col s3 input-field">' + 
-        '<input type="number" id="item' + item.id + '" class="materialize-textarea"></input>' +
+        '<input placeholder="Quantity" type="number" id="item' + item.id + '" class="materialize-textarea"></input>' +
         '</div>' +
         '</div>';
 }

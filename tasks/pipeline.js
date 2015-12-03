@@ -35,13 +35,13 @@ var jsFilesToInject = [
   // All of the rest of your client-side js files
   // will be injected here in no particular order.
   'js/**/*.js',
-  'slick/**/*.js',
+  'slick/slick.min.js',
   // Use the "exclude" operator to ignore files
   // '!js/ignore/these/files/*.js'
   '!js/reviews.js',
   '!js/index.js',
   '!js/menu.js',
-  '!js/menu.js'
+  '!js/materialize.js'
 ];
 
 
