@@ -673,7 +673,13 @@
         "id": 21
       }
     ],
-    "user": []
+    "user": [
+      {
+        "createdAt": "2015-12-03T21:00:38.887Z",
+        "updatedAt": "2015-12-03T21:00:38.887Z",
+        "id": 1
+      }
+    ]
   },
   "schema": {
     "cartitem": {
@@ -832,7 +838,9 @@
     }
   },
   "counters": {
-    "cartitem": {},
+    "cartitem": {
+      "id": 10
+    },
     "item": {
       "id": 54
     },
@@ -842,6 +850,8 @@
     "review": {
       "id": 21
     },
-    "user": {}
+    "user": {
+      "id": 1
+    }
   }
 }

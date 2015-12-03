@@ -28,6 +28,22 @@ $(document).ready(function() {
             autoplaySpeed: 2000
         });
     });
+
+    cart_button = $("#cart-button");
+    cart_button.removeAttr("href");
+    cart_button.attr("href", "javascript:;");
+    cart_button.click(function() {
+        items = $(".item");
+        count = items.length;
+        items.each(function(index, item) {
+            id = item.getAttribute("itemid");
+            quantity = item.value;
+            if(quantity)
+                io.socket.post("/cartItem", {quantity: quantity, item: id});
+            if(!--count)
+                console.log("done");
+        });
+    });
 });
 
 function newItem(item) {
@@ -37,7 +53,7 @@ function newItem(item) {
         '</div>' +
         '<div class="col s3"><h4>' + formatPrice(item.price) + '</h4></div>' + 
         '<div class="col s3 input-field">' + 
-        '<input placeholder="Quantity" type="number" id="item' + item.id + '" class="materialize-textarea"></input>' +
+        '<input placeholder="Quantity" type="number" id = "item' + item.id + '"itemid = ' + item.id + ' class="item materialize-textarea"></input>' +
         '</div>' +
         '</div>';
 }
